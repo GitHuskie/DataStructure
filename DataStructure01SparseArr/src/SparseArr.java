@@ -56,7 +56,7 @@ public class SparseArr {
         sparseArr[0][2] = sum;
 
         //3.给稀疏数组赋值(遍历二维数组,将非0的值存放到sparseArr中)
-        int count = 0;//用于记录是第几个非0数组
+        int count = 0;//用于记录是第几个非0数组,因为之后赋值时会递增
         for (int i = 0; i < chessArr1.length; i++) {
             for (int j = 0; j < chessArr1[i].length; j++) {
                 if (chessArr1[i][j] != 0) {
